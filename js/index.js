@@ -1,5 +1,5 @@
 const header = document.querySelector('.header')
-fetch('/header.html')
+fetch('partials/header.html')
     .then(res => res.text())
     .then(data => {
         header.innerHTML = data
@@ -7,7 +7,7 @@ fetch('/header.html')
     })
 
 const footer = document.querySelector('.footer')
-fetch('/footer.html')
+fetch('partials/footer.html')
     .then(res => res.text())
     .then(data => {
         footer.innerHTML = data
