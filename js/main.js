@@ -1,17 +1,3 @@
-// const header = document.querySelector('.head')
-// fetch('/header.html')
-//     .then(res => res.text())
-//     .then(data => {
-//         header.innerHTML = data
-//     })
-
-// const footer = document.querySelector('.foot')
-// fetch('/footer.html')
-//     .then(res => res.text())
-//     .then(data => {
-//         footer.innerHTML = data
-//     })
-
 
 /*
  * Modules
