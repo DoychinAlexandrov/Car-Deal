@@ -1,12 +1,12 @@
 const header = document.querySelector('.header')
-fetch('partials/header.html')
+fetch('/header.html')
     .then(res => res.text())
     .then(data => {
         header.innerHTML = data
     })
 
 const footer = document.querySelector('.footer')
-fetch('partials/footer.html')
+fetch('/footer.html')
     .then(res => res.text())
     .then(data => {
         footer.innerHTML = data
