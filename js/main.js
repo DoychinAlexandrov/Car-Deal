@@ -48,18 +48,17 @@ const accordionSections = document.querySelectorAll(".accordion__section");
 accordionSections.forEach((section) => {
     section.addEventListener("click", () => {
         if (!section.classList.contains("active")) {
-            // If the clicked section is not already active
+
             accordionSections.forEach((otherSection) => {
-                // Close all other sections
+
                 if (otherSection.classList.contains("active")) {
                     otherSection.classList.remove("active");
                 }
             });
-            // Open the clicked section
+
             section.classList.add("active");
 
         } else {
-            // If the clicked section is already active, close it
             section.classList.remove("active");
         }
     });
